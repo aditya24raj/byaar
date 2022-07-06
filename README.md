@@ -12,7 +12,7 @@ attachments --archive-the-attachments--> attachments.zip --replace-ZIP-signature
 
 >X is random data. it is stored as first 8 bytes of cats.jpeg
 
-cats.jpeg --change-X-to-ZIP-sinature--> temp_file --extract-temp_file-to-cats-folder--> cats folder with attachments
+cats.jpeg --change-X-to-ZIP-signature--> temp_file --extract-temp_file-to-cats-folder--> cats folder with attachments
 
 ## Usage
 ```
