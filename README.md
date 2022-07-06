@@ -9,7 +9,7 @@ This tool removes that restriction.
 
 ## How?
 attachments --archive-the-attachments--> attachments.zip --replace-ZIP-signature-with-X--> temp_file --change-filename-to-cats.jpeg--> cats.jpeg
-# X is random data. it is stored as first 8 bytes of cats.jpeg
+>X is random data. it is stored as first 8 bytes of cats.jpeg
 cats.jpeg --change-X-to-ZIP-sinature--> temp_file --extract-temp_file-to-cats-folder--> cats folder with attachments
 
 ## Usage
