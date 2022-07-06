@@ -11,6 +11,7 @@ This tool removes that restriction.
 attachments --archive-the-attachments--> attachments.zip --replace-ZIP-signature-with-X--> temp_file --change-filename-to-cats.jpeg--> cats.jpeg
 
 >ZIP signature is special 8 bytes of data(0x4b50) which identifies a file as ZIP.
+>
 >X is random data. it is stored as first 8 bytes of cats.jpeg
 
 cats.jpeg --change-X-to-ZIP-signature--> temp_file --extract-temp_file-to-cats-folder--> cats folder with attachments
