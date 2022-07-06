@@ -22,8 +22,7 @@ Mandatory arguments:
     
 Exit status:
      0    if OK,
-     1    if minor problems (e.g., cannot access file-paths),
-     2    if serious trouble (e.g., cannot acceess command-line argument).
+     1    if bad/invalid command-line arguments given
 """
     
     # validate argument
@@ -33,7 +32,7 @@ Exit status:
     except IndexError:
         # bad command-line arguments found
         print(main.__doc__)
-        return 2;
+        return 1;
 
     # if -c or --conceal argument found
     # call conceal function
