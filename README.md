@@ -4,6 +4,7 @@ bypass file-type attachment restrictions of GMail
 ## Why?
 
 GMail does not allows certain file-types as attachments (e.x. .zip, .bz etc.)
+
 This tool archives files in .zip format and removes ZIP signature(0x4b50 or "PK") from its binary data, to bypass this restriction.
 
 ## Usage
